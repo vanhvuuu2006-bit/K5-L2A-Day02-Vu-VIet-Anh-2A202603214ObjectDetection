@@ -22,6 +22,6 @@
 
 | Ảnh | Tình huống | Quyết định cuối | Lý do theo schema |
 | --- | --- | --- | --- |
-| `drive_...` | | | |
-| `drive_...` | | | |
-| `drive_...` | | | |
+| `drive_003` |Chiếc xe màu trắng dáng hộp(car 3) di chuyển từ xa trong điều kiện tầm nhìn bị giảm do khoảng cách phối cảnh |nhãn van |Hệ thống phải trích xuất các đặc trưng hình học cốt lõi (đuôi vuông phẳng, tỷ lệ chiều cao/chiều rộng) và so sánh trực tiếp với các xe dòng car xung quanh để vượt qua sự mơ hồ về kích thước do khoảng cách xa gây ra |
+| `drive_029` |Nhận diện ô tô ở khoảng cách cực xa bị suy giảm độ phân giải trầm trọng và bị hàng rào che khuất một phần. |nhãn car |Sử dụng tư duy logic về làn đường, hướng dòng chảy giao thông và kích thước tương đối với các phương tiện lân cận để bù đắp cho sự thiếu hụt nghiêm trọng về chi tiết hình học của vật thể. |
+| `drive_041` |Nhận diện phương tiện lai giữa xe đô thị nhỏ và xe công trình, trong điều kiện nhiễu bóng phản chiếu từ mặt đường sũng nước |nhãn truck | bỏ qua các đặc trưng nhiễu ở đầu cabin (giống van/car) và hiện tượng phản chiếu mặt đường, tập trung quét cấu trúc hình học của thùng xe độc lập phía sau để phân loại đúng nhóm xe tải. |
